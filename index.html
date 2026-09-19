@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coursera</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+  
+    <header>
+        <div class="bg-dark px-3 px-md-4">
+            <ul class="nav nav-underline small fw-semibold">
+                <li class="nav-item">
+                    <a class="nav-link active link-light pe-3" aria-current="page" href="#">For Individuals</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link link-light opacity-75 pe-3" href="#">For Businesses</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link link-light opacity-75 pe-3" href="#">For Universities</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link link-light opacity-75 pe-3" href="#">For Governments</a>
+                </li>
+            </ul>
+        </div>
+
+      
+        <nav class="navbar navbar-expand-lg bg-white border-bottom px-3 px-md-4 py-2">
+            <div class="container-fluid px-0 gap-3">
+                
+                <!-- Left Section: Brand Logo & Navigation Links -->
+                <div class="d-flex align-items-center gap-3">
+                    <!-- Coursera Brand Logo -->
+                    <a class="navbar-brand text-primary fw-bold fs-3 tracking-tight m-0" href="#" style="letter-spacing: -1px;">
+                        coursera
+                    </a>
+
+                    <div class="dropdown">
+                        <button class="btn btn-primary dropdown-toggle fw-medium px-3" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Explore
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Goals</a></li>
+                            <li><a class="dropdown-item" href="#">Subjects</a></li>
+                            <li><a class="dropdown-item" href="#">Degrees & Certificates</a></li>
+                        </ul>
+                    </div>
+
+               
+                    <a href="#" class="nav-link fw-medium text-dark d-none d-md-inline-block">Degrees</a>
+                </div>
+
+                <div class="flex-grow-1 mx-lg-4" style="max-width: 500px;">
+                    <form class="w-100" role="search" onsubmit="event.preventDefault();">
+                        <div class="input-group">
+                            <input type="search" class="form-control rounded-start-pill border-end-0 ps-3" placeholder="What do you want to learn?" aria-label="Search">
+                            <button class="btn btn-primary rounded-end-pill px-3" type="submit">
+                                <i class="bi bi-search"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+
+             
+                <div class="d-flex align-items-center gap-2 gap-sm-3 ms-auto">
+              
+                    <a href="#" class="text-primary fs-5 lh-1 p-1" title="Coursera AI Assistant">
+                        <i class="bi bi-stars"></i>
+                    </a>
+
+                  
+                    <a href="#" class="btn btn-link text-primary text-decoration-none fw-bold p-0 px-2">Log In</a>
+
+                  
+                    <a href="#" class="btn btn-outline-primary fw-bold px-3">Join for Free</a>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <div class="hero">
+
+          <div id="carouselExample"
+    class="carousel slide"
+    data-bs-ride="carousel"
+    data-bs-interval="2000">
+
+    <div class="carousel-inner">
+
+        <!-- First slide -->
+        <div class="carousel-item active">
+            <div class="row g-20 justify-content-center mx-4 ">
+
+    <div class="col-6">
+        <img src="images/slider1.png"
+             class="d-block w-100 rounded-5 h-75"
+             alt="Slider 1">
+    </div>
+
+    <div class="col-6">
+        <img src="images/slider2.png"
+             class="d-block w-100 rounded-5 h-75"
+             alt="Slider 2">
+    </div>
+
+</div>
+        </div>
+
+
+          <!-- First slide -->
+        <div class="carousel-item active">
+            <div class="row g-20 justify-content-center mx-4 ">
+
+    <div class="col-6">
+        <img src="images/slider1.png"
+             class="d-block w-100 rounded-5 h-75"
+             alt="Slider 1">
+    </div>
+
+    <div class="col-6">
+        <img src="images/slider2.png"
+             class="d-block w-100 rounded-5 h-75"
+             alt="Slider 2">
+    </div>
+
+</div>
+        </div>
+       
+
+    </div>
+
+    <button class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExample"
+        data-bs-slide="prev">
+
+        <span class="carousel-control-prev-icon"></span>
+        <span class="visually-hidden">Previous</span>
+
+    </button>
+
+    <button class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExample"
+        data-bs-slide="next">
+
+        <span class="carousel-control-next-icon"></span>
+        <span class="visually-hidden">Next</span>
+
+    </button>
+
+</div>
+
+
+        </div>
+
+<div class="container-fluid">
+
+    <div class="row g-4">
+
+        <!--MOST POPULAR -->
+        <div class="col-md-4">
+
+            <div class="bg-primary-subtle p-4 rounded-3">
+
+                <h4 class="mb-4">
+                    Most popular →
+                </h4>
+
+                <!-- Card 1 -->
+                <div class="card mb-3 border-0 rounded-3">
+                    <div class="d-flex flex-row align-items-center">
+
+                        <!-- Image -->
+                        <div class="col-4 p-2">
+                            <img src="images/slider1.png"
+                                 alt=""
+                                 class="img-fluid rounded-3">
+                        </div>
+
+                        <!-- Text -->
+                        <div class="col-8">
+                            <div class="card-body p-2">
+
+                                <h6 class="text-secondary mb-2">
+                                    Google
+                                </h6>
+
+                                <h6 class="card-title mb-3">
+                                    Google Data Analytics
+                                </h6>
+
+                              
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <!-- Card 2 -->
+                <div class="card mb-3 border-0 rounded-3">
+                    <div class="d-flex flex-row align-items-center">
+
+                        <div class="col-4 p-2">
+                            <img src="images/slider1.png"
+                                 alt=""
+                                 class="img-fluid rounded-3">
+                        </div>
+
+                        <div class="col-8">
+                            <div class="card-body p-2">
+
+                                <h6 class="text-secondary mb-2">
+                                    Lorem.
+
+                                </h6>
+
+                                <h6 class="card-title mb-3">
+                                   Lorem, ipsum.
+                                </h6>
+
+                              
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <!-- Card 3 -->
+                <div class="card border-0 rounded-3">
+                    <div class="d-flex flex-row align-items-center">
+
+                        <div class="col-4 p-2">
+                            <img src="images/slider1.png"
+                                 alt=""
+                                 class="img-fluid rounded-3">
+                        </div>
+
+                        <div class="col-8">
+                            <div class="card-body p-2">
+
+                                <h6 class="text-secondary mb-2">
+                                    Google
+                                </h6>
+
+                                <h6 class="card-title mb-3">
+                                    Google Project Management
+                                </h6>
+
+                         
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- hot new relesse -->
+        <div class="col-md-4">
+
+            <div class="bg-primary-subtle p-4 rounded-3">
+
+                <h4 class="mb-4">
+                    Hot new releases →
+                </h4>
+
+                <!-- Card 1 -->
+                <div class="card mb-3 border-0 rounded-3">
+                    <div class="d-flex flex-row align-items-center">
+
+                        <div class="col-4 p-2">
+                            <img src="images/slider1.png"
+                                 alt=""
+                                 class="img-fluid rounded-3">
+                        </div>
+
+                        <div class="col-8">
+                            <div class="card-body p-2">
+
+                                <h6 class="text-secondary mb-2">
+                                    Dr. Ryan Ahmed
+                                </h6>
+
+                                <h6 class="card-title mb-3">
+Lorem ipsum dolor sit amet.                                </h6>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <!-- Card 2 -->
+                <div class="card mb-3 border-0 rounded-3">
+                    <div class="d-flex flex-row align-items-center">
+
+                        <div class="col-4 p-2">
+                            <img src="images/slider1.png"
+                                 alt=""
+                                 class="img-fluid rounded-3">
+                        </div>
+
+                        <div class="col-8">
+                            <div class="card-body p-2">
+
+                                <h6 class="text-secondary mb-2">
+                                    Microsoft
+                                </h6>
+
+                                <h6 class="card-title mb-3">
+Lorem ipsum dolor, sit amet consectetur adipisicing.                                </h6>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <!-- Card 3 -->
+                <div class="card border-0 rounded-3">
+                    <div class="d-flex flex-row align-items-center">
+
+                        <div class="col-4 p-2">
+                            <img src="images/slider1.png"
+                                 alt=""
+                                 class="img-fluid rounded-3">
+                        </div>
+
+                        <div class="col-8">
+                            <div class="card-body p-2">
+
+                                <h6 class="text-secondary mb-2">
+                                    Google
+                                </h6>
+
+                                <h6 class="card-title mb-3">
+                                    Google AI
+                                </h6>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- trending Ai -->
+        <div class="col-md-4">
+
+            <div class="bg-primary-subtle p-4 rounded-3">
+
+                <h4 class="mb-4">
+                    Trending AI courses →
+                </h4>
+
+                <!-- Card 1 -->
+                <div class="card mb-3 border-0 rounded-3">
+                    <div class="d-flex flex-row align-items-center">
+
+                        <div class="col-4 p-2">
+                            <img src="images/slider1.png"
+                                 alt=""
+                                 class="img-fluid rounded-3">
+                        </div>
+
+                        <div class="col-8">
+                            <div class="card-body p-2">
+
+                                <h6 class="text-secondary mb-2">
+                                    Multiple educators
+                                </h6>
+
+                                <h6 class="card-title mb-3">
+                                    Machine Learning
+                                </h6>
+
+                           
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <!-- Card 2 -->
+                <div class="card mb-3 border-0 rounded-3">
+                    <div class="d-flex flex-row align-items-center">
+
+                        <div class="col-4 p-2">
+                            <img src="images/slider1.png"
+                                 alt=""
+                                 class="img-fluid rounded-3">
+                        </div>
+
+                        <div class="col-8">
+                            <div class="card-body p-2">
+
+                                <h6 class="text-secondary mb-2">
+                                    Google
+                                </h6>
+
+                                <h6 class="card-title mb-3">
+                                    Google AI Essentials
+                                </h6>
+
+                               
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <!-- Card 3 -->
+                <div class="card border-0 rounded-3">
+                    <div class="d-flex flex-row align-items-center">
+
+                        <div class="col-4 p-2">
+                            <img src="images/slider1.png"
+                                 alt=""
+                                 class="img-fluid rounded-3">
+                        </div>
+
+                        <div class="col-8">
+                            <div class="card-body p-2">
+
+                                <h6 class="text-secondary mb-2">
+                                    Stanford Online
+                                </h6>
+
+                                <h6 class="card-title mb-3">
+                                    AI in Healthcare
+                                </h6>
+
+                                <p class="card-text text-secondary mb-0">
+                                  
+                                </p>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+        </div>
+
+   
+<!--  PROMO BANNERS SECTION -->
+<section class="container my-5">
+  <div class="row g-4">
+    <div class="col-md-6">
+      <div class="p-4 bg-primary text-white rounded-4 d-flex justify-content-between align-items-center h-100 position-relative overflow-hidden">
+        <div>
+          <span class="badge bg-light text-primary fw-bold mb-2">COURSERA SAVE</span>
+          <h3 class="fw-bold fs-4">Break down barriers to learning with big savings</h3>
+          <button class="btn btn-light text-primary fw-bold mt-3">Get Coursera Plus →</button>
+        </div>
+        <div class="bg-warning text-dark rounded-circle p-3 text-center fw-bold me-2 fs-5" style="width: 80px; height: 80px; line-height: 1.2;">
+          40%<br><small class="fs-6">off</small>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="p-4 bg-dark text-white rounded-4 d-flex justify-content-between align-items-center h-100 position-relative overflow-hidden">
+        <div>
+          <span class="badge bg-secondary mb-2">COURSERA FOR TEAMS</span>
+          <h3 class="fw-bold fs-4">Start with easy savings for hard working teams</h3>
+          <button class="btn btn-light text-dark fw-bold mt-3">Get 30% Off Today →</button>
+        </div>
+        <div class="bg-danger text-white rounded-circle p-3 text-center fw-bold me-2 fs-5" style="width: 80px; height: 80px; line-height: 1.2;">
+          30%<br><small class="fs-6">off</small>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--  PARTNER LOGOS SECTION -->
+<section class="container my-5 text-center">
+  <h5 class="fw-bold mb-4 text-muted">Learn from 325+ leading universities and companies</h5>
+  <div class="d-flex flex-wrap justify-content-center align-items-center gap-4 text-secondary fw-bold">
+    <span>Google</span>
+    <span>IBM</span>
+    <span>Microsoft</span>
+    <span>University of Illinois</span>
+    <span>Duke</span>
+    <span>Anthem</span>
+    <span>Imperial College</span>
+    <span>Stanford University</span>
+    <span>Penn</span>
+  </div>
+</section>
+
+<!--  FEATURE CARDS -->
+<section class="container my-5">
+  <div class="row g-4">
+    <div class="col-md-4">
+      <div class="p-4 bg-body-tertiary rounded-4 d-flex justify-content-between align-items-center border h-100">
+        <div>
+          <h5 class="fw-bold mb-1">Launch a new career</h5>
+        </div>
+      
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="p-4 bg-body-tertiary rounded-4 d-flex justify-content-between align-items-center border h-100">
+        <div>
+          <h5 class="fw-bold mb-1">Try Coursera for Business</h5>
+        </div>
+       
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="p-4 bg-body-tertiary rounded-4 d-flex justify-content-between align-items-center border h-100">
+        <div>
+          <h5 class="fw-bold mb-1">Earn a degree</h5>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--  EXPLORE CATEGORIES  -->
+<section class="container my-5">
+  <h4 class="fw-bold mb-3">Explore categories</h4>
+  <div class="d-flex flex-wrap gap-2">
+    <button class="btn btn-outline-secondary rounded-pill btn-sm">Business</button>
+    <button class="btn btn-outline-secondary rounded-pill btn-sm">Artificial Intelligence</button>
+    <button class="btn btn-outline-secondary rounded-pill btn-sm">Data Science</button>
+    <button class="btn btn-outline-secondary rounded-pill btn-sm">Computer Science</button>
+    <button class="btn btn-outline-secondary rounded-pill btn-sm">Information Technology</button>
+    <button class="btn btn-outline-secondary rounded-pill btn-sm">Personal Development</button>
+    <button class="btn btn-outline-secondary rounded-pill btn-sm">Healthcare</button>
+    <button class="btn btn-outline-secondary rounded-pill btn-sm">Language Learning</button>
+    <button class="btn btn-outline-secondary rounded-pill btn-sm">Math and Logic</button>
+    <button class="btn btn-outline-secondary rounded-pill btn-sm">Physical Science and Engineering</button>
+    <button class="btn btn-outline-secondary rounded-pill btn-sm">Social Sciences</button>
+  </div>
+</section>
+
+<!--  EXPLORE CAREERS  -->
+<section class="container my-5">
+  <h4 class="fw-bold mb-4">Explore careers <span class="fs-6 text-muted">Explore all &rarr;</span></h4>
+  <div class="row row-cols-2 row-cols-md-5 g-3">
+    <div class="col">
+      <div class="card h-100 border rounded-4 text-center p-3">
+        <div class="bg-warning-subtle rounded-3 mb-3 p-3">
+        
+        </div>
+        <h6 class="fw-bold mb-1">Data Scientist</h6>
+        <p class="text-muted small mb-0">Build models & analyze data to uncover insights</p>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100 border rounded-4 text-center p-3">
+        <div class="bg-warning-subtle rounded-3 mb-3 p-3">
+     
+        </div>
+        <h6 class="fw-bold mb-1">Machine Learning Engineer</h6>
+        <p class="text-muted small mb-0">Design and build AI algorithms for systems</p>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100 border rounded-4 text-center p-3">
+        <div class="bg-danger-subtle rounded-3 mb-3 p-3">
+         
+        </div>
+        <h6 class="fw-bold mb-1">Data Analyst</h6>
+        <p class="text-muted small mb-0">Collect, clean, and study data sets to guide business</p>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100 border rounded-4 text-center p-3">
+        <div class="bg-warning-subtle rounded-3 mb-3 p-3">
+      
+        </div>
+        <h6 class="fw-bold mb-1">Data Architect</h6>
+        <p class="text-muted small mb-0">Design, create, and manage data architecture</p>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100 border rounded-4 text-center p-3">
+        <div class="bg-warning-subtle rounded-3 mb-3 p-3">
+      
+        </div>
+        <h6 class="fw-bold mb-1">Business Intelligence Analyst</h6>
+        <p class="text-muted small mb-0">Transform complex data into actionable insights</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- STATS BANNER  -->
+<section class="container my-5">
+  <div class="bg-dark text-white p-5 rounded-4 d-flex justify-content-between align-items-center flex-wrap">
+    <div class="col-md-8">
+      <h3 class="fw-bold mb-2">77% of Coursera learners achieved a positive career outcome</h3>
+      <p class="text-secondary mb-3">They reported new job opportunities, increased earnings, and improved work performance.</p>
+      <a href="#" class="text-primary text-decoration-none fw-bold">Learn more &rarr;</a>
+    </div>
+    <div class="col-md-3 text-center mt-3 mt-md-0">
+      <div class="display-3 fw-bold text-info border border-info rounded-circle d-inline-flex justify-content-center align-items-center" style="width: 130px; height: 130px;">
+        91%
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ ACCORDION -->
+<section class="container my-5">
+  <h4 class="fw-bold mb-4">Frequently asked questions</h4>
+  <div class="accordion accordion-flush" id="faqAccordion">
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+          Is Coursera accredited, and are Coursera certificates recognized by employers?
+        </button>
+      </h2>
+      <div id="faq1" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+        <div class="accordion-body text-secondary">
+          Yes, Coursera collaborates with top universities and leading companies to offer industry-recognized certificates and degrees.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+          Is a Coursera certificate worth it?
+        </button>
+      </h2>
+      <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+        <div class="accordion-body text-secondary">
+          Coursera certificates can help boost your resume, build job-ready skills, and demonstrate specialized knowledge to potential employers.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+          What is Coursera Plus, and is it worth it?
+        </button>
+      </h2>
+      <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+        <div class="accordion-body text-secondary">
+          Coursera Plus gives you unlimited access to thousands of courses, Specializations, and Professional Certificates.
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER  -->
+<footer class="bg-light pt-5 pb-4 mt-5 border-top">
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-6 col-md-3">
+        <h6 class="fw-bold text-dark mb-3">Skills</h6>
+        <ul class="list-unstyled text-muted small d-flex flex-column gap-2">
+          <li>Accounting</li>
+          <li>Artificial Intelligence (AI)</li>
+          <li>Cybersecurity</li>
+          <li>Data Analytics</li>
+          <li>Digital Marketing</li>
+        </ul>
+      </div>
+      <div class="col-6 col-md-3">
+        <h6 class="fw-bold text-dark mb-3">Professional Certificates</h6>
+        <ul class="list-unstyled text-muted small d-flex flex-column gap-2">
+          <li>Google Data Analytics</li>
+          <li>Google Cybersecurity</li>
+          <li>Google IT Support</li>
+          <li>IBM Data Science</li>
+        </ul>
+      </div>
+      <div class="col-6 col-md-3">
+        <h6 class="fw-bold text-dark mb-3">Courses & Specializations</h6>
+        <ul class="list-unstyled text-muted small d-flex flex-column gap-2">
+          <li>AI for Everyone</li>
+          <li>Generative AI Courses</li>
+          <li>Machine Learning Specialization</li>
+          <li>Python for Everybody</li>
+        </ul>
+      </div>
+      <div class="col-6 col-md-3">
+        <h6 class="fw-bold text-dark mb-3">Coursera</h6>
+        <ul class="list-unstyled text-muted small d-flex flex-column gap-2">
+          <li>About</li>
+          <li>Careers</li>
+          <li>Leadership</li>
+          <li>Catalog</li>
+          <li>Coursera Plus</li>
+        </ul>
+      </div>
+    </div>
+    <hr class="my-4 text-muted">
+    <div class="d-flex flex-wrap justify-content-between align-items-center text-muted small">
+      <p class="mb-0">&copy; 2026 Coursera Inc. All rights reserved.</p>
+      <div class="d-flex gap-3">
+        <a href="#" class="text-muted text-decoration-none">Privacy</a>
+        <a href="#" class="text-muted text-decoration-none">Terms</a>
+        <a href="#" class="text-muted text-decoration-none">Help</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
